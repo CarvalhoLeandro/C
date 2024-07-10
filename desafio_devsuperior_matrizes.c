@@ -54,7 +54,7 @@ int main()
     printf("\n-------------------- RELATORIO DE CLIENTES ---------------------\n\n");
 
     for(int i = 0; i < n; i++)
-        printf("%s, %d, Tipo %d, Minutos: %d, Conta = %.2f\n",nomes[i], telefone[i], tipo_bas[i], minutos[i], valor[i]);
+        printf("%s, %d, Tipo %d, Minutos: %d, Conta R$: %.2f\n",nomes[i], telefone[i], tipo_bas[i], minutos[i], valor[i]);
 
     return 0;
 }
