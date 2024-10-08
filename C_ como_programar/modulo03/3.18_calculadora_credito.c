@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 /*Calculadora de limite de crédito. Desenvolva um
 programa em C que determine se um cliente de uma
 loja de departamentos excedeu seu limite de crédito. Os
