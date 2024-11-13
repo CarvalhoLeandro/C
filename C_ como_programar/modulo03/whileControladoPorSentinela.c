@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 /*Programa de média da turma controlado por sentinela*/
 /*O programa recebe uma quantidade arbitrária de notas até que o valor sentinela seja digitado*/
@@ -27,11 +28,12 @@ int main(){
     /*Tratamento para não ocorrer erro de divisão por zero*/
     if(cont != 0){
         media = soma / cont;
-        printf("\n\nMedia da turma: %.2f", media);
+        printf("\n\nMedia da turma: %.2f\n", media);
     }
     else{
         printf("\n\nNao ha notas lancadas!!\n\n");
     }
 
+    system("pause");
     return 0;
 }
