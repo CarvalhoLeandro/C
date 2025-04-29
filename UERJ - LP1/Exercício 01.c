@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /*Exerc�cio 01  - Escreva um programa em C que encontre o menor inteiro
 positivo n que atenda as seguintes condi��es :
 n / 3 = x inteiro e resto 2
